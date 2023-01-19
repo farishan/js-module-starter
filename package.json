@@ -1,0 +1,17 @@
+{
+  "name": "js-module-starter",
+  "version": "0.1.0",
+  "description": "A starter for JS module",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup -c && npx rollup -c example/rollup.config.js"
+  },
+  "keywords": [],
+  "author": "Faris Han",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.10.0"
+  }
+}
